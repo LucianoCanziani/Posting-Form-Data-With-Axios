@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #683AE8;
+}
+
+
+.table-cont {
+	padding: 20px;
+	background-color: white;
+	width: 80%;
+	border-radius: 30px;
+	margin: 0px auto;
+}
+
+
+body {
+	background: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-size: 34px;
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+}
+
+
+
+.input-group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	display: flex;
+	align-items: center;
+
+	flex-direction: column;
+	background-color: white;
+}
+
+.input {
+	min-height: 50px;
+	min-width: 50px;
+	width: 270px;
+	max-width: 270px;
+	padding: 0 1rem;
+	color: #000;
+	font-size: 19px;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.249);
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+.button--submit {
+	min-height: 50px;
+	padding: .5em 1.45em;
+	border: 1px solid rgba(0, 0, 0, 0.249);
+	border-radius: 6px;
+	background-color: white;
+	color: #000;
+	cursor: pointer;
+	transition: background-color .35s ease-in-out;
+	font-size: 19px;
+	width: 270px;
+}
+
+.button--submit:hover {
+	background-color: rgba(0, 0, 0, 0.693);
+	color: white;
+}
+
+.input:focus,
+.input:focus-visible {
+	border-color: rgb(0, 0, 0);
+	outline: none;
+}
